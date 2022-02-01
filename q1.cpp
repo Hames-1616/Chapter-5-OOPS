@@ -3,8 +3,7 @@ using namespace std;
 float circarea (float x, float y)
 {
     float area = x * y * y;
-  cout << "Area is "<< area << endl;
-  return area;
+    return area;
 }
 
 int main()
@@ -14,7 +13,5 @@ int main()
     cout<<"Enter the Radius"<<endl;
     cin>>rad;
     arc = circarea(PI,rad);
-    cout<<arc;
-
-
+    cout<<"Area = "<<arc;
 }
